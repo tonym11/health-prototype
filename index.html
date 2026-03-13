@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>+Life Health Prototype</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <div class="ambient ambient-left"></div>
+    <div class="ambient ambient-right"></div>
+
+    <main class="phone-frame" aria-label="Health prototype">
+      <section class="status-bar" aria-hidden="true">
+        <span>9:41</span>
+        <span class="status-icons">
+          <span></span>
+          <span></span>
+          <span class="status-battery"></span>
+        </span>
+      </section>
+
+      <div id="app"></div>
+    </main>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
